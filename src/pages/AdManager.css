@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(208, 240, 240); */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 1fr;
+}
+.header{
+    background-color: #1b1c1c;
+    display: grid;  
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+
+}
+
+.header .image{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.header h5{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.content-container{
+    margin: 10px 40px;
+}
+
+/* .campagin > h3{
+    margin: 20px 0px 20px 80px; 
+    margin: 0px 0;
+} */
+.stats-box{
+    box-shadow: 3px 3px 5px rgba(188, 187, 187, 0.867);
+    width: 100%;
+    height: 80px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+}
+
+.stats-box .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.stats-box > h4{
+    margin:10px;
+}
+
+#progress{
+    width: 240px;
+}
+
+.retailers-list{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 5px;
+}
+
+.retailers-list #retailers-list-btns > button{
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px #bbbbbb;
+
+}
+
+.retailers-list #retailers-list-btns > .btn-list{
+    background: #000;
+    color: #fff;
+}
+
+.search-filter{
+    display: grid;
+    width: 100%;
+    background-color: #181717;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    height: 50px;
+}
+
+.search-filter > .search{
+    display: flex;
+    justify-content: center;
+    /* width: 300px ; */
+    
+
+    
+}
+.search-filter > .search > input{
+    margin: 0px 20px;
+}
+.search-filter > .sort > input{
+    margin: 0px 20px;
+}
+.search-filter > .sort {
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+
+.search > h4{
+    margin-right: 20px;
+}
+
+.sort > select{
+    margin-right: 20px;
+}
+
+.campagin span{
+    margin-left: 5px;
+    font-size: 24px;
+}
+
+.compagin-header {
+    display: flex;
+
+}
+.search-filter .search-box{
+    background-color: red;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-left: 10px;
+    background-color: white;
+}
+.search-filter .search-box input{
+    /* margin-left: 10px; */
+    padding: 2px 5px;
+    background: none;
+    outline: none;
+    border: none;
+}
+.search-filter .search-box span{
+    display: flex;
+    padding: 5px;
+    background-color: #c770c7;
+    height: 100%;
+}

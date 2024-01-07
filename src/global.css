@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(208, 240, 240); */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 1fr;
+}
+.header{
+    background-color: #1b1c1c;
+    display: grid;  
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+
+}
+
+.header .image{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.header h5{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.content-container{
+    margin: 20px;
+}
+
+.campagin > h3{
+    /* margin: 20px 0px 20px 80px; */
+    margin: 10px 0;
+}
+.stats-box{
+    box-shadow: 3px 3px 5px rgba(188, 187, 187, 0.867);
+    width: 100%;
+    height: 80px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+}
+
+.stats-box .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.stats-box > h4{
+    margin:10px;
+}
+
+#progress{
+    width: 240px;
+}
+
+.retailers-list{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 5px;
+}
+
+.retailers-list #retailers-list-btns > button{
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px #bbbbbb;
+
+}
+
+.retailers-list #retailers-list-btns > .btn-list{
+    background: #000;
+    color: #fff;
+}
